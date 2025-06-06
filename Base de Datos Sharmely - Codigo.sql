@@ -26,14 +26,14 @@ CREATE TABLE Proveedor (
 );
 GO
 
--- Tabla Categoría
+-- Tabla CategorÃ­a
 CREATE TABLE Categoria (
     codeCategoria INT PRIMARY KEY,
     nombreCategoria VARCHAR(100) NOT NULL
 );
 GO
 
--- Tabla Producto (Relacionada con Proveedor y Categoría)
+-- Tabla Producto (Relacionada con Proveedor y CategorÃ­a)
 CREATE TABLE Producto (
     codeProducto INT PRIMARY KEY,
     nombreProducto VARCHAR(100) NOT NULL,
@@ -62,7 +62,7 @@ CREATE TABLE Usuario (
     idUsuario INT PRIMARY KEY,
     nombreUsuario VARCHAR(100) NOT NULL,
     emailUsuario VARCHAR(150) UNIQUE NOT NULL,
-    contraseñaUsuario VARCHAR(255) NOT NULL,
+    contraseÃ±aUsuario VARCHAR(255) NOT NULL,
     rolUsuario VARCHAR(50) NOT NULL, -- Ej: 'Admin', 'Empleado', 'Cliente'
     idCliente INT NULL,
     FOREIGN KEY (idCliente) REFERENCES Cliente(idCliente) ON DELETE CASCADE
@@ -103,7 +103,7 @@ CREATE TABLE Pago (
 );
 GO
 
--- Tabla Envío (Relacionada con Pedido)
+-- Tabla EnvÃ­o (Relacionada con Pedido)
 CREATE TABLE Envio (
     idEnvio INT PRIMARY KEY,
     direccionEntrega TEXT NOT NULL,
