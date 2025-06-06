@@ -32,27 +32,27 @@ INSERT INTO Proveedor VALUES
 (19, 'AceroPlus', 'contacto@aceroplus.com', '084238351', 'Materiales diversos'),
 (20, 'TecnoFerre', 'contacto@tecnoferre.com', '084269552', 'Materiales diversos');
 INSERT INTO Proveedor (idProveedor, nombreProveedor, contactoProveedor, telefonoProveedor, materialesProveedor) VALUES
-(1, 'Tech Solutions S.A.C.', 'Juan Perez', '987654321', 'Componentes electrónicos, Cables, Placas base'),
-(2, 'Electro Mundi E.I.R.L.', 'Maria Gomez', '998877665', 'Teclados, Mouses, Monitores, Impresoras'),
-(3, 'Muebles Express S.A.', 'Carlos Ruiz', '976543210', 'Madera, Metal, Tapicería, Herrajes'),
-(4, 'Decor Hogar Limitada', 'Ana Torres', '965432109', 'Pinturas, Pinceles, Lonas, Adornos'),
-(5, 'Textil Fino S.R.L.', 'Pedro Diaz', '954321098', 'Algodón, Lana, Seda, Hilos'),
-(6, 'Alimentos Saludables SAC', 'Laura Martinez', '943210987', 'Frutas, Verduras, Granos, Aceites'),
-(7, 'Juguetes Fantasia EIRL', 'Miguel Sanchez', '932109876', 'Plástico, Goma, Tela, Baterías'),
-(8, 'Sport Gear S.A.', 'Sofia Rojas', '921098765', 'Telas deportivas, Suelas, Cordones'),
-(9, 'Librería del Saber SAC', 'Roberto Castro', '910987654', 'Papel, Lapiceros, Cuadernos, Libros'),
-(10, 'Herramientas Pro EIRL', 'Daniela Vargas', '909876543', 'Acero, Plástico, Cables, Motores');
-(11, 'Maderas Andinas S.A.', 'Ricardo Peña', '901234567', 'Roble, Pino, Cedro, Aglomerados'),
-(12, 'Confecciones del Valle', 'Carmen Soto', '910234567', 'Telas de alpaca, Algodón orgánico, Hilos finos'),
-(13, 'Gadget Zone EIRL', 'Luis Cardenas', '921098765', 'Accesorios para smartphones, Audífonos, Baterías portátiles'),
-(14, 'Papelería Brillante SAC', 'Gabriela Luna', '932109876', 'Resmas de papel, Tintas, Material de escritorio'),
-(15, 'Dulces Tradicionales', 'Jorge Quispe', '943210987', 'Azúcar, Harina, Frutas confitadas, Esencias'),
-(16, 'Deportivo Total', 'Patricia Vera', '954321098', 'Balones, Zapatillas, Ropa deportiva, Accesorios de entrenamiento'),
-(17, 'Arte y Diseño Perú', 'Hernán Rojas', '965432109', 'Pinturas al óleo, Pinceles profesionales, Lienzos, Marcos'),
-(18, 'Componentes Industriales', 'Elena Flores', '976543210', 'Circuitos, Sensores, Motores pequeños, Herramientas de precisión'),
-(19, 'Flora y Jardín SAC', 'Diego Guzman', '987654321', 'Fertilizantes, Semillas, Macetas, Herramientas de jardinería'),
-(20, 'Software Innovador', 'Andrea Morales', '998765432', 'Licencias de software, Antivirus, Sistemas operativos, Hardware compatible');
-GO
+(21, 'Tech Solutions S.A.C.', 'Juan Perez', '987654321', 'Componentes electrónicos, Cables, Placas base'),
+(22, 'Electro Mundi E.I.R.L.', 'Maria Gomez', '998877665', 'Teclados, Mouses, Monitores, Impresoras'),
+(23, 'Muebles Express S.A.', 'Carlos Ruiz', '976543210', 'Madera, Metal, Tapicería, Herrajes'),
+(24, 'Decor Hogar Limitada', 'Ana Torres', '965432109', 'Pinturas, Pinceles, Lonas, Adornos'),
+(25, 'Textil Fino S.R.L.', 'Pedro Diaz', '954321098', 'Algodón, Lana, Seda, Hilos'),
+(26, 'Alimentos Saludables SAC', 'Laura Martinez', '943210987', 'Frutas, Verduras, Granos, Aceites'),
+(27, 'Juguetes Fantasia EIRL', 'Miguel Sanchez', '932109876', 'Plástico, Goma, Tela, Baterías'),
+(28, 'Sport Gear S.A.', 'Sofia Rojas', '921098765', 'Telas deportivas, Suelas, Cordones'),
+(29, 'Librería del Saber SAC', 'Roberto Castro', '910987654', 'Papel, Lapiceros, Cuadernos, Libros'),
+(30, 'Herramientas Pro EIRL', 'Daniela Vargas', '909876543', 'Acero, Plástico, Cables, Motores');
+(31, 'Maderas Andinas S.A.', 'Ricardo Peña', '901234567', 'Roble, Pino, Cedro, Aglomerados'),
+(32, 'Confecciones del Valle', 'Carmen Soto', '910234567', 'Telas de alpaca, Algodón orgánico, Hilos finos'),
+(33, 'Gadget Zone EIRL', 'Luis Cardenas', '921098765', 'Accesorios para smartphones, Audífonos, Baterías portátiles'),
+(34, 'Papelería Brillante SAC', 'Gabriela Luna', '932109876', 'Resmas de papel, Tintas, Material de escritorio'),
+(35, 'Dulces Tradicionales', 'Jorge Quispe', '943210987', 'Azúcar, Harina, Frutas confitadas, Esencias'),
+(36, 'Deportivo Total', 'Patricia Vera', '954321098', 'Balones, Zapatillas, Ropa deportiva, Accesorios de entrenamiento'),
+(37, 'Arte y Diseño Perú', 'Hernán Rojas', '965432109', 'Pinturas al óleo, Pinceles profesionales, Lienzos, Marcos'),
+(38, 'Componentes Industriales', 'Elena Flores', '976543210', 'Circuitos, Sensores, Motores pequeños, Herramientas de precisión'),
+(39, 'Flora y Jardín SAC', 'Diego Guzman', '987654321', 'Fertilizantes, Semillas, Macetas, Herramientas de jardinería'),
+(40, 'Software Innovador', 'Andrea Morales', '998765432', 'Licencias de software, Antivirus, Sistemas operativos, Hardware compatible');
+
 
 -- Datos CATEGORIA
 INSERT INTO Categoria VALUES
