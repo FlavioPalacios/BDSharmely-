@@ -8,7 +8,7 @@ DELETE FROM Cliente;
 DELETE FROM Producto;
 DELETE FROM Categoria;
 DELETE FROM Proveedor;
-xd
+
 -- Datos PROVEEDOR
 INSERT INTO Proveedor VALUES
 (1, 'FerroPerú SAC', 'Carlos Huamán', '084234567', 'Fierro, cemento, mallas'),
