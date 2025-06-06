@@ -8,19 +8,19 @@ DELETE FROM Cliente;
 DELETE FROM Producto;
 DELETE FROM Categoria;
 DELETE FROM Proveedor;
-
+xd
 -- Datos PROVEEDOR
 INSERT INTO Proveedor VALUES
-(1, 'FerroPer˙ SAC', 'Carlos Huam·n', '084234567', 'Fierro, cemento, mallas'),
-(2, 'Ladrillos Inka', 'MarÌa Quispe', '084765432', 'Ladrillos, bloques'),
+(1, 'FerroPer√∫ SAC', 'Carlos Huam√°n', '084234567', 'Fierro, cemento, mallas'),
+(2, 'Ladrillos Inka', 'Mar√≠a Quispe', '084765432', 'Ladrillos, bloques'),
 (3, 'Cementos Sur', 'Jorge Mamani', '084323456', 'Cemento tipo I, IP'),
-(4, 'Alambrix Cusco', 'LucÌa Sota', '084246810', 'Alambre, clavos'),
-(5, 'Sika Per˙', 'Pedro Aquino', '084135792', 'Selladores, aditivos'),
-(6, 'Elektra Tools', 'Rosa Vargas', '084876543', 'Herramientas elÈctricas'),
-(7, 'Tuboplast SAC', 'Luis Choque', '084432198', 'TuberÌas PVC'),
+(4, 'Alambrix Cusco', 'Luc√≠a Sota', '084246810', 'Alambre, clavos'),
+(5, 'Sika Per√∫', 'Pedro Aquino', '084135792', 'Selladores, aditivos'),
+(6, 'Elektra Tools', 'Rosa Vargas', '084876543', 'Herramientas el√©ctricas'),
+(7, 'Tuboplast SAC', 'Luis Choque', '084432198', 'Tuber√≠as PVC'),
 (8, 'Pinturas Andinas', 'Sandra Quispe', '084129843', 'Pinturas, disolventes'),
-(9, 'Gypsum Per˙', 'Manuel Huanca', '084333444', 'Placas de drywall'),
-(10, 'TecnoVidrios', 'Camila ¡lvarez', '084546372', 'Vidrios templados'),
+(9, 'Gypsum Per√∫', 'Manuel Huanca', '084333444', 'Placas de drywall'),
+(10, 'TecnoVidrios', 'Camila √Ålvarez', '084546372', 'Vidrios templados'),
 (11, 'InkaFerre', 'contacto@inkaferre.com', '084245372', 'Materiales diversos'),
 (12, 'CuscoTools', 'contacto@cuscotools.com', '084298045', 'Materiales diversos'),
 (13, 'FerreMax', 'contacto@ferremax.com', '084244387', 'Materiales diversos'),
@@ -28,7 +28,7 @@ INSERT INTO Proveedor VALUES
 (15, 'Construcentro', 'contacto@construcentro.com', '084265648', 'Materiales diversos'),
 (16, 'Makita Cusco', 'contacto@makitacusco.com', '084223847', 'Materiales diversos'),
 (17, 'TodoHierro', 'contacto@todohierro.com', '084243621', 'Materiales diversos'),
-(18, 'SuperFerreterÌa', 'contacto@superferre.com', '084295646', 'Materiales diversos'),
+(18, 'SuperFerreter√≠a', 'contacto@superferre.com', '084295646', 'Materiales diversos'),
 (19, 'AceroPlus', 'contacto@aceroplus.com', '084238351', 'Materiales diversos'),
 (20, 'TecnoFerre', 'contacto@tecnoferre.com', '084269552', 'Materiales diversos');
 
@@ -41,7 +41,7 @@ INSERT INTO Categoria VALUES
 (4, 'Herramientas'),
 (5, 'Electricidad'),
 (6, 'Pinturas'),
-(7, 'PlomerÌa'),
+(7, 'Plomer√≠a'),
 (8, 'Drywall'),
 (9, 'Vidrios'),
 (10, 'Aditivos'),
@@ -54,17 +54,17 @@ INSERT INTO Categoria VALUES
 (17, 'Madera'),
 (18, 'Tornillos'),
 (19, 'Pegamentos'),
-(20, 'ElÈctricos');
+(20, 'El√©ctricos');
 
 -- Datos PRODUCTO
 INSERT INTO Producto VALUES
 (1, 'Cemento Sol', 'Cemento tipo I', 28.50, 150, 3, 1),
 (2, 'Ladrillo King Kong', 'Ladrillo artesanal cocido', 0.85, 1200, 2, 2),
-(3, 'Fierro corrugado 3/8"', 'Varilla de construcciÛn', 18.00, 500, 1, 3),
+(3, 'Fierro corrugado 3/8"', 'Varilla de construcci√≥n', 18.00, 500, 1, 3),
 (4, 'Taladro Bosch', 'Taladro percutor 600W', 350.00, 20, 6, 4),
-(5, 'Cable THW 2.5mm', 'Cable elÈctrico por metro', 2.30, 1000, 1, 5),
-(6, 'Pintura L·tex Blanco', 'Pintura para interiores', 75.00, 40, 8, 6),
-(7, 'Tubo PVC 1/2"', 'TuberÌa de presiÛn', 5.50, 300, 7, 7),
+(5, 'Cable THW 2.5mm', 'Cable el√©ctrico por metro', 2.30, 1000, 1, 5),
+(6, 'Pintura L√°tex Blanco', 'Pintura para interiores', 75.00, 40, 8, 6),
+(7, 'Tubo PVC 1/2"', 'Tuber√≠a de presi√≥n', 5.50, 300, 7, 7),
 (8, 'Placa drywall 1/2"', 'Placa de yeso de 1.20x2.40m', 34.00, 100, 9, 8),
 (9, 'Vidrio templado 6mm', 'Hoja de 1x2m', 95.00, 25, 10, 9),
 (10, 'Aditivo SikaLatex', 'Aditivo adherente para concreto', 15.90, 60, 5, 10),
@@ -77,30 +77,30 @@ INSERT INTO Producto VALUES
 (17, 'Triplay 9mm', 'Producto de alta calidad', 85.00, 18, 17, 17),
 (18, 'Tornillo drywall', 'Producto de alta calidad', 18.00, 200, 18, 18),
 (19, 'Silicona TekBond', 'Producto de alta calidad', 24.00, 40, 19, 19),
-(20, 'Cable elÈctrico 2.5mm', 'Producto de alta calidad', 35.00, 75, 20, 20);
+(20, 'Cable el√©ctrico 2.5mm', 'Producto de alta calidad', 35.00, 75, 20, 20);
 
 -- Datos CLIENTE
 INSERT INTO Cliente VALUES
 (1, 'Juan', 'Quispe', '984567321', 'Av. La Cultura 123, Cusco'),
 (2, 'Rosa', 'Huallpa', '984123456', 'Calle Saphy 45, Cusco'),
-(3, 'JosÈ', 'Choque', '984654789', 'Av. Collasuyo 89, Cusco'),
-(4, 'LucÌa', 'Mamami', '984987321', 'Urb. Magisterio B-10, Cusco'),
-(5, 'Carlos', 'Ttito', '984765432', 'Av. EjÈrcito 678, Cusco'),
-(6, 'MarÌa', 'Abarca', '984000111', 'Urb. Los Jardines 32, Cusco'),
+(3, 'Jos√©', 'Choque', '984654789', 'Av. Collasuyo 89, Cusco'),
+(4, 'Luc√≠a', 'Mamami', '984987321', 'Urb. Magisterio B-10, Cusco'),
+(5, 'Carlos', 'Ttito', '984765432', 'Av. Ej√©rcito 678, Cusco'),
+(6, 'Mar√≠a', 'Abarca', '984000111', 'Urb. Los Jardines 32, Cusco'),
 (7, 'Miguel', 'Suca', '984333222', 'Sector Tica Tica, Cusco'),
 (8, 'Ana', 'Ccahuana', '984888777', 'Residencial Quillabamba, Cusco'),
 (9, 'Fernando', 'Apaza', '984121212', 'Av. Garcilaso 55, Cusco'),
-(10, 'VerÛnica', 'Paucar', '984777666', 'Calle Pampa del Castillo, Cusco'),
+(10, 'Ver√≥nica', 'Paucar', '984777666', 'Calle Pampa del Castillo, Cusco'),
 (11, 'Valeria', 'Lopez', '913040577', 'Av. Lopez 55, Cusco'),
 (12, 'Ana', 'Gonzales', '944350660', 'Av. Gonzales 60, Cusco'),
-(13, 'Luis', 'Huam·n', '921122334', 'Av. Cultura 123, Cusco'),
+(13, 'Luis', 'Huam√°n', '921122334', 'Av. Cultura 123, Cusco'),
 (14, 'Carlos', 'Mamani', '944445566', 'Jr. Manco Capac 203, Cusco'),
-(15, 'LucÌa', 'Condori', '966778899', 'Av. La Cultura 789, Cusco'),
+(15, 'Luc√≠a', 'Condori', '966778899', 'Av. La Cultura 789, Cusco'),
 (16, 'Pedro', 'Flores', '932221133', 'Calle Plateros 32, Cusco'),
-(17, 'SofÌa', 'Ramirez', '922334455', 'Av. EjÈrcito 404, Cusco'),
-(18, 'JosÈ', 'PÈrez', '987112233', 'Jr. Saphy 98, Cusco'),
-(19, 'Juan', 'C·rdenas', '955667788', 'UrbanizaciÛn Kennedy B-4, Cusco'),
-(20, 'MarÌa', 'Quispe', '999888777', 'Urb. Santa Ursula 12, Cusco');
+(17, 'Sof√≠a', 'Ramirez', '922334455', 'Av. Ej√©rcito 404, Cusco'),
+(18, 'Jos√©', 'P√©rez', '987112233', 'Jr. Saphy 98, Cusco'),
+(19, 'Juan', 'C√°rdenas', '955667788', 'Urbanizaci√≥n Kennedy B-4, Cusco'),
+(20, 'Mar√≠a', 'Quispe', '999888777', 'Urb. Santa Ursula 12, Cusco');
 
 -- Datos USUARIO
 INSERT INTO Usuario VALUES
@@ -127,15 +127,15 @@ INSERT INTO Usuario VALUES
 
 -- Datos PEDIDO
 INSERT INTO Pedido VALUES
-(1, '2025-06-01', 'Pendiente', NULL, 'Pedido para obra en San JerÛnimo', 1),
-(2, '2025-06-01', 'Enviado', NULL, 'Compra materiales elÈctricos', 2),
+(1, '2025-06-01', 'Pendiente', NULL, 'Pedido para obra en San Jer√≥nimo', 1),
+(2, '2025-06-01', 'Enviado', NULL, 'Compra materiales el√©ctricos', 2),
 (3, '2025-06-02', 'Entregado', NULL, 'Pedido drywall para oficina', 4),
-(4, '2025-06-02', 'Pendiente', NULL, 'Stock para ferreterÌa', 3),
+(4, '2025-06-02', 'Pendiente', NULL, 'Stock para ferreter√≠a', 3),
 (5, '2025-06-03', 'En proceso', NULL, 'Herramientas varias', 5),
 (6, '2025-06-03', 'Pendiente', NULL, 'Pintura y aditivos', 6),
 (7, '2025-06-03', 'Enviado', NULL, 'Pedido semanal', 7),
 (8, '2025-06-04', 'Pendiente', NULL, 'Vidrio templado', 8),
-(9, '2025-06-04', 'Entregado', NULL, 'PlomerÌa para casa', 9),
+(9, '2025-06-04', 'Entregado', NULL, 'Plomer√≠a para casa', 9),
 (10, '2025-06-04', 'Pendiente', NULL, 'Ladrillos y cemento', 10),
 (11, '2025-05-25', 'Cancelado', NULL, 'Pedido generado desde app', 11),
 (12, '2025-06-02', 'Entregado', NULL, 'Pedido generado desde app', 12),
@@ -196,18 +196,18 @@ INSERT INTO Pago VALUES
 
 -- Datos ENVIO
 INSERT INTO Envio VALUES
-(1, 'Av. La Cultura 123', 'Sharmely LogÌstica', 20.00, '2025-06-02', 'Pendiente', 1),
-(2, 'Calle Saphy 45', 'Sharmely LogÌstica', 15.00, '2025-06-02', 'Enviado', 2),
-(3, 'Urb. Magisterio B-10', 'Sharmely LogÌstica', 18.00, '2025-06-03', 'Entregado', 3),
-(4, 'Av. Collasuyo 89', 'Sharmely LogÌstica', 22.00, '2025-06-03', 'Pendiente', 4),
-(5, 'Av. EjÈrcito 678', 'Sharmely LogÌstica', 10.00, '2025-06-04', 'En proceso', 5),
-(6, 'Urb. Los Jardines 32', 'Sharmely LogÌstica', 12.00, '2025-06-04', 'Pendiente', 6),
-(7, 'Sector Tica Tica', 'Sharmely LogÌstica', 14.00, '2025-06-04', 'Enviado', 7),
-(8, 'Residencial Quillabamba', 'Sharmely LogÌstica', 25.00, '2025-06-05', 'Pendiente', 8),
-(9, 'Av. Garcilaso 55', 'Sharmely LogÌstica', 11.00, '2025-06-05', 'Entregado', 9),
-(10, 'Calle Pampa del Castillo', 'Sharmely LogÌstica', 16.00, '2025-06-05', 'Pendiente', 10),
-(11, 'Mz Q Lt 22 UrbanizaciÛn Cusco', 'SharmelyLogistics', 16.00, '2025-06-09', 'Pendiente', 11),
-(12, 'Mz Q Lt 24 UrbanizaciÛn Cusco', 'Serpost', 30.00, '2025-06-06', 'Pendiente', 12),
+(1, 'Av. La Cultura 123', 'Sharmely Log√≠stica', 20.00, '2025-06-02', 'Pendiente', 1),
+(2, 'Calle Saphy 45', 'Sharmely Log√≠stica', 15.00, '2025-06-02', 'Enviado', 2),
+(3, 'Urb. Magisterio B-10', 'Sharmely Log√≠stica', 18.00, '2025-06-03', 'Entregado', 3),
+(4, 'Av. Collasuyo 89', 'Sharmely Log√≠stica', 22.00, '2025-06-03', 'Pendiente', 4),
+(5, 'Av. Ej√©rcito 678', 'Sharmely Log√≠stica', 10.00, '2025-06-04', 'En proceso', 5),
+(6, 'Urb. Los Jardines 32', 'Sharmely Log√≠stica', 12.00, '2025-06-04', 'Pendiente', 6),
+(7, 'Sector Tica Tica', 'Sharmely Log√≠stica', 14.00, '2025-06-04', 'Enviado', 7),
+(8, 'Residencial Quillabamba', 'Sharmely Log√≠stica', 25.00, '2025-06-05', 'Pendiente', 8),
+(9, 'Av. Garcilaso 55', 'Sharmely Log√≠stica', 11.00, '2025-06-05', 'Entregado', 9),
+(10, 'Calle Pampa del Castillo', 'Sharmely Log√≠stica', 16.00, '2025-06-05', 'Pendiente', 10),
+(11, 'Mz Q Lt 22 Urbanizaci√≥n Cusco', 'SharmelyLogistics', 16.00, '2025-06-09', 'Pendiente', 11),
+(12, 'Mz Q Lt 24 Urbanizaci√≥n Cusco', 'Serpost', 30.00, '2025-06-06', 'Pendiente', 12),
 (13, 'Urb. Ttio K-12, Cusco', 'Olva Courier', 18.00, '2025-06-07', 'Enviado', 13),
 (14, 'Av. El Sol 123, Cusco', 'SharmelyLogistics', 22.00, '2025-06-08', 'Entregado', 14),
 (15, 'Jr. Ayacucho 45, Cusco', 'Serpost', 20.00, '2025-06-07', 'Pagado', 15),
