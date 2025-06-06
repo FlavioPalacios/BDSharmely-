@@ -31,7 +31,6 @@ INSERT INTO Proveedor VALUES
 (18, 'SuperFerretería', 'contacto@superferre.com', '084295646', 'Materiales diversos'),
 (19, 'AceroPlus', 'contacto@aceroplus.com', '084238351', 'Materiales diversos'),
 (20, 'TecnoFerre', 'contacto@tecnoferre.com', '084269552', 'Materiales diversos');
-INSERT INTO Proveedor (idProveedor, nombreProveedor, contactoProveedor, telefonoProveedor, materialesProveedor) VALUES
 (21, 'Tech Solutions S.A.C.', 'Juan Perez', '987654321', 'Componentes electrónicos, Cables, Placas base'),
 (22, 'Electro Mundi E.I.R.L.', 'Maria Gomez', '998877665', 'Teclados, Mouses, Monitores, Impresoras'),
 (23, 'Muebles Express S.A.', 'Carlos Ruiz', '976543210', 'Madera, Metal, Tapicería, Herrajes'),
