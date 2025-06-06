@@ -31,7 +31,18 @@ INSERT INTO Proveedor VALUES
 (18, 'SuperFerretería', 'contacto@superferre.com', '084295646', 'Materiales diversos'),
 (19, 'AceroPlus', 'contacto@aceroplus.com', '084238351', 'Materiales diversos'),
 (20, 'TecnoFerre', 'contacto@tecnoferre.com', '084269552', 'Materiales diversos');
-
+INSERT INTO Proveedor (idProveedor, nombreProveedor, contactoProveedor, telefonoProveedor, materialesProveedor) VALUES
+(11, 'Maderas Andinas S.A.', 'Ricardo Peña', '901234567', 'Roble, Pino, Cedro, Aglomerados'),
+(12, 'Confecciones del Valle', 'Carmen Soto', '910234567', 'Telas de alpaca, Algodón orgánico, Hilos finos'),
+(13, 'Gadget Zone EIRL', 'Luis Cardenas', '921098765', 'Accesorios para smartphones, Audífonos, Baterías portátiles'),
+(14, 'Papelería Brillante SAC', 'Gabriela Luna', '932109876', 'Resmas de papel, Tintas, Material de escritorio'),
+(15, 'Dulces Tradicionales', 'Jorge Quispe', '943210987', 'Azúcar, Harina, Frutas confitadas, Esencias'),
+(16, 'Deportivo Total', 'Patricia Vera', '954321098', 'Balones, Zapatillas, Ropa deportiva, Accesorios de entrenamiento'),
+(17, 'Arte y Diseño Perú', 'Hernán Rojas', '965432109', 'Pinturas al óleo, Pinceles profesionales, Lienzos, Marcos'),
+(18, 'Componentes Industriales', 'Elena Flores', '976543210', 'Circuitos, Sensores, Motores pequeños, Herramientas de precisión'),
+(19, 'Flora y Jardín SAC', 'Diego Guzman', '987654321', 'Fertilizantes, Semillas, Macetas, Herramientas de jardinería'),
+(20, 'Software Innovador', 'Andrea Morales', '998765432', 'Licencias de software, Antivirus, Sistemas operativos, Hardware compatible');
+GO
 
 -- Datos CATEGORIA
 INSERT INTO Categoria VALUES
