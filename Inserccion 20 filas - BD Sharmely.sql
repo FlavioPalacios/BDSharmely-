@@ -32,6 +32,16 @@ INSERT INTO Proveedor VALUES
 (19, 'AceroPlus', 'contacto@aceroplus.com', '084238351', 'Materiales diversos'),
 (20, 'TecnoFerre', 'contacto@tecnoferre.com', '084269552', 'Materiales diversos');
 INSERT INTO Proveedor (idProveedor, nombreProveedor, contactoProveedor, telefonoProveedor, materialesProveedor) VALUES
+(1, 'Tech Solutions S.A.C.', 'Juan Perez', '987654321', 'Componentes electrónicos, Cables, Placas base'),
+(2, 'Electro Mundi E.I.R.L.', 'Maria Gomez', '998877665', 'Teclados, Mouses, Monitores, Impresoras'),
+(3, 'Muebles Express S.A.', 'Carlos Ruiz', '976543210', 'Madera, Metal, Tapicería, Herrajes'),
+(4, 'Decor Hogar Limitada', 'Ana Torres', '965432109', 'Pinturas, Pinceles, Lonas, Adornos'),
+(5, 'Textil Fino S.R.L.', 'Pedro Diaz', '954321098', 'Algodón, Lana, Seda, Hilos'),
+(6, 'Alimentos Saludables SAC', 'Laura Martinez', '943210987', 'Frutas, Verduras, Granos, Aceites'),
+(7, 'Juguetes Fantasia EIRL', 'Miguel Sanchez', '932109876', 'Plástico, Goma, Tela, Baterías'),
+(8, 'Sport Gear S.A.', 'Sofia Rojas', '921098765', 'Telas deportivas, Suelas, Cordones'),
+(9, 'Librería del Saber SAC', 'Roberto Castro', '910987654', 'Papel, Lapiceros, Cuadernos, Libros'),
+(10, 'Herramientas Pro EIRL', 'Daniela Vargas', '909876543', 'Acero, Plástico, Cables, Motores');
 (11, 'Maderas Andinas S.A.', 'Ricardo Peña', '901234567', 'Roble, Pino, Cedro, Aglomerados'),
 (12, 'Confecciones del Valle', 'Carmen Soto', '910234567', 'Telas de alpaca, Algodón orgánico, Hilos finos'),
 (13, 'Gadget Zone EIRL', 'Luis Cardenas', '921098765', 'Accesorios para smartphones, Audífonos, Baterías portátiles'),
