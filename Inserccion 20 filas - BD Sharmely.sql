@@ -3,7 +3,7 @@ DELETE FROM Envio;
 DELETE FROM Pago;
 DELETE FROM Detalle_Pedido;
 DELETE FROM Pedido;
-DELETE FROM Usuario;
+DELETE FROM Usuario; pepe pegalon de mujeres
 DELETE FROM Cliente;
 DELETE FROM Producto;
 DELETE FROM Categoria;
