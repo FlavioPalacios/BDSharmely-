@@ -237,7 +237,7 @@ INSERT INTO Categoria VALUES
 (20, 'Eléctricos');
 
 -- Datos PRODUCTO
-INSERT INTO Producto VALUES,
+INSERT INTO Producto VALUES
 (1, 'Cemento Fortaleza', 'Cemento tipo I', 30.74, 162, 3, 1),
 (2, 'Cemento Inka', 'Cemento para concreto', 26.0, 69, 2, 2),
 (3, 'Cemento Andino', 'Cemento para concreto', 29.76, 82, 3, 3),
@@ -440,7 +440,7 @@ INSERT INTO Producto VALUES,
 (200, 'Cemento Fortaleza', 'Cemento estructural', 30.16, 59, 1, 1);
 
 -- Datos CLIENTE
-INSERT INTO Cliente VALUES,
+INSERT INTO Cliente VALUES
 (1, 'José', 'Sánchez', '915778408', 'Jr. Ayacucho 307, Cusco'),
 (2, 'Carmen', 'Sánchez', '962339307', 'Jr. Ayacucho 593, Cusco'),
 (3, 'Juan', 'Torres', '985343720', 'Av. La Cultura 900, Cusco'),
@@ -643,7 +643,7 @@ INSERT INTO Cliente VALUES,
 (200, 'Carmen', 'Torres', '915996669', 'Av. Túpac Amaru 529, Cusco');
 
 -- Datos USUARIO
-INSERT INTO Usuario VALUES,
+INSERT INTO Usuario VALUES
 (1, 'empleado1', 'empleado.1@gmail.com', 'empleado444', 'Admin', NULL),
 (2, 'empleado2', 'empleado.2@gmail.com', 'empleado780', 'Empleado', 113),
 (3, 'cliente3', 'cliente.3@hotmail.com', 'cliente986', 'Cliente', 107),
@@ -1654,5 +1654,4 @@ INSERT INTO Envio VALUES (197, 'Calle Saphy 45', 'Sharmely Logística', 24.58, '
 INSERT INTO Envio VALUES (198, 'Calle Lima 90', 'Sharmely Logística', 23.65, '2025-06-10', 'Entregado', 198);
 INSERT INTO Envio VALUES (199, 'Urb. Santa Mónica Mz C Lote 5', 'Sharmely Logística', 12.45, '2025-06-03', 'En proceso', 199);
 INSERT INTO Envio VALUES (200, 'Calle Recoleta 33', 'Sharmely Logística', 20.01, '2025-06-11', 'Enviado', 200);
-
 
