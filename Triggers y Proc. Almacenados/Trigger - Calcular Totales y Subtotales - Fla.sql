@@ -1,3 +1,6 @@
+DROP TRIGGER trg_ActualizarTotales
+GO 
+
 CREATE TRIGGER trg_ActualizarTotales
 ON Detalle_Pedido
 AFTER INSERT, UPDATE
